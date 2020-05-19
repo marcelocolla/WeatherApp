@@ -1,12 +1,15 @@
 import React from 'react'
 
-import StatusBarApp from '~/atoms/StatusBar'
+import StatusBarApp from '~/components/atoms/StatusBar'
+import { StoreProvider } from './hooks/store'
 import Main from './navigations/Main'
 
 const App = () => (
   <>
     <StatusBarApp />
-    <Main />
+    <StoreProvider>
+      <Main />
+    </StoreProvider>
   </>
 )
 

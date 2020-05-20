@@ -38,7 +38,7 @@ export const Image = styled.Image`
 `
 
 export const Line = styled.View`
-  transform: translateY(2px);
+  transform: translateY(1px);
   width: 100%;
   height: 3px;
   background-color: ${getColor('accent', 200)};

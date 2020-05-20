@@ -6,7 +6,7 @@ import SpaceBox from '~/components/atoms/SpaceBox'
 
 const WeatherListHeader = ({ title }) => (
   <SpaceBox>
-    <Typography text={title} theme="white" scale={1.2} bold />
+    <Typography text={title} theme="white" scale={1.1} bold />
   </SpaceBox>
 )
 

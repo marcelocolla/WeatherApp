@@ -12,7 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-root-import": "^6.5.0",
     "eslint-import-resolver-babel-module": "^5.1.2",
